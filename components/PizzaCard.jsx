@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "../styles/PizzaCard.module.css";
 
 const PizzaCard = ({ product }) => {
-  console.log(product)
+  // console.log(product)
   return (
     <Link href={`/product/${product._id}`} passHref>
       <div className={styles.container}>
